@@ -1,0 +1,139 @@
+.background{
+    background-color: black;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+@font-face {
+    font-family: 'Lobster_Two';
+    src: url('Lobster_Two/LobsterTwo-Italic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+.maingrid{
+    display: grid;
+    color: blue;
+    justify-content: end;    
+    margin-left: 380px;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+    margin-top: 0px;    
+    align-items: center;
+    padding-left: 100px ;
+    padding-top: 30px;
+}
+
+.borderprop{
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0.01cm;
+    border-color: grey;
+    border-style: solid;
+    margin-right: 200px;
+}
+
+.leftsidebar{
+    position: fixed;
+   font-family: 'Lobster_Two',LobsterTwo-Italic,sans-serif;
+   font-size: 25px;
+    color: white;
+    font-style: italic;
+    display: grid;
+    grid-template-rows: 1fr 5fr 5fr;
+    height: 1000px;
+    width: 329px;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.instagrambutton{
+    transition: color 0.5s;
+    transition: opacity 0.5s;
+    font-family: 'Lobster_Two',LobsterTwo-Italic,sans-serif;
+    color: white;
+    background-color: black;
+    border-top: 0px;
+    border-left : 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    font-size: 35px;
+}
+
+.sidebarbuttons{
+    margin-top: 65px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    margin-bottom: 235px;
+
+}
+
+.button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-top: 0px;
+    border-left : 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color: white;
+    border-style: solid;
+    font-size: 25px;
+    height: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+    transition: all 0.1s;
+}
+
+.button:hover{
+    background-color: rgb(31, 30, 30);
+    color: white;
+    opacity: 0.9;
+}
+
+.logo{
+    height: 35px;
+    width: 35px;
+    padding-right: 10px;
+}
+.profilelogo{
+    border-radius: 100px;
+}
+
+.instagrambutton:link{
+    color:white;
+}
+.instagrambutton:visited{
+    color: white;
+}
+.instagrambutton:hover{
+    color: gray;
+    opacity: 0.8;
+}
+.morebutton{
+    align-items: baseline;
+}
+
+.fontfix{
+    padding-bottom: 10px;
+}
+
+.postgrid{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.storygrid{
+    display: flex;
+    overflow-x: scroll;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.storygrid::-webkit-scrollbar{
+    display:none;
+}
+
